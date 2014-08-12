@@ -42,7 +42,7 @@ figure.code figcaption {
   text-align: left;
   padding-left: 10px;
 }
-td code {
+article td code {
   display: inline-block;
   white-space: no-wrap;
   background: #FFF;
@@ -57,4 +57,7 @@ td code {
   border-radius: 0.4em;
   padding: 0 .3em;
   margin: -1px 0;
+}
+article ol {
+  margin-left: 3em;
 }
