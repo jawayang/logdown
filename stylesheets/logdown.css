@@ -1,0 +1,55 @@
+article table {
+  border: solid 1px;
+  margin-bottom: 20px;
+}
+article table thead {
+  border: solid 1px;
+  background: #DDD;
+}
+article table tbody td,
+article table th {
+  padding: 3px 10px 3px 10px;
+  border: solid 1px;
+}
+article ul {
+  margin-left: 38px;
+}
+.highlight {
+  margin-bottom: 1.8em;
+  background: #002b36;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 10px;
+  !important
+}
+article blockquote {
+  font-size: 0.88em;
+  font-style: normal;
+  color: rgb(117, 117, 117);
+  background: #EBEBEB;
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+blockquote p {
+  margin-bottom: 0px;
+}
+figure.code figcaption {
+  text-align: left;
+  padding-left: 10px;
+}
+td code {
+  display: inline-block;
+  white-space: no-wrap;
+  background: #FFF;
+  font-size: .8em;
+  line-height: 1.5em;
+  color: #555;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  border-radius: 0.4em;
+  padding: 0 .3em;
+  margin: -1px 0;
+}
