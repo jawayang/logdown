@@ -1,219 +1,55 @@
-body {
-  background-attachment: fixed !important;
+article table {
+  border: solid 1px;
+  margin-bottom: 20px;
 }
-.logo {
-  width: auto !important;
-  -webkit-transform: rotate(0) !important;
-  -moz-transform: rotate(0) !important;
-  -ms-transform: rotate(0) !important;
-  -o-transform: rotate(0) !important;
-  transform: rotate(0) !important;
-  text-align: left !important;
-  text-transform: none !important;
-  font-family: 'Andika', sans-serif !important;
+article table thead {
+  border: solid 1px;
+  background: #DDD;
 }
-.logo a {
-  letter-spacing: .02em;
-  color: whitesmoke !important;
+article table tbody td,
+article table th {
+  padding: 3px 10px 3px 10px;
+  border: solid 1px;
 }
-.header a:hover {
-  color: whitesmoke !important;
-  text-shadow: none !important;
+article ul {
+  margin-left: 38px;
 }
-.header .nav {
-  margin-top: -60px;
+.highlight {
+  margin-bottom: 1.8em;
+  background: #002b36;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 10px;
+  !important
 }
-.header .nav ul {
-  width: auto !important;
-  padding-right: 20px !important;
+article blockquote {
+  font-size: 0.88em;
+  font-style: normal;
+  color: rgb(117, 117, 117);
+  background: #EBEBEB;
+  padding-top: 10px;
+  padding-bottom: 17px;
 }
-.header .nav li {
-  width: 5em !important;
-  line-height: 1.2em !important;
-  margin-right: 4px !important;
+blockquote p {
+  margin-bottom: 0px;
 }
-.header .nav a {
-  display: table !important;
-  width: 100% !important;
-  padding-top: 24px !important;
-  height: 78px;
-  background-color: whitesmoke !important;
-  -webkit-border-radius: 0.25em 0.25em 10em 10em/0.25em 0.25em 1.5em 1.5em !important;
-  -moz-border-radius: 0.25em 0.25em 10em 10em/0.25em 0.25em 1.5em 1.5em !important;
-  -ms-border-radius: 0.25em 0.25em 10em 10em/0.25em 0.25em 1.5em 1.5em !important;
-  -o-border-radius: 0.25em 0.25em 10em 10em/0.25em 0.25em 1.5em 1.5em !important;
-  border-radius: 0.25em 0.25em 10em 10em/0.25em 0.25em 1.5em 1.5em !important;
-  box-shadow: 0 0 0.5em #e6e6e6 inset, 0 0 0 1px #d4d4d4 !important;
+figure.code figcaption {
+  text-align: left;
+  padding-left: 10px;
 }
-.header .nav a:hover {
-  padding-top: 32px !important;
-  color: #4d4d4d !important;
-}
-.header .nav a i {
-  display: table-cell !important;
-  vertical-align: bottom !important;
-}
-.header .nav a span {
-  display: table-row !important;
-}
-.header .search {
-  background-color: whitesmoke;
-  margin-top: -56px;
-  padding: 8px 8px 8px 6px;
-  -webkit-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em !important;
-  -moz-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em !important;
-  -ms-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em !important;
-  -o-border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em !important;
-  border-radius: 0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em !important;
-}
-.header .search .search-box {
-  -webkit-border-radius: 4px !important;
-  -moz-border-radius: 4px !important;
-  -ms-border-radius: 4px !important;
-  -o-border-radius: 4px !important;
-  border-radius: 4px !important;
-}
-.container {
-  background: whitesmoke !important;
-}
-.container .title a:hover {
-  color: #4d4d4d !important;
-}
-/*排除 Font Awesome 的字體*/
-
-.container *:not([class*="icon-"]) {
-  font-family: '儷黑 Pro', '微軟正黑體', '雅黑 Pro';
-}
-.gist-syntax span,
-.gist .line {
-  font-family: Consolas, 'Liberation Mono', Courier, monospace !important;
-}
-.article a {
-  position: relative;
-  color: rgba(29, 140, 189, 0.76);
-  border-bottom: 0;
-  margin: 0 3px;
-}
-.article a:hover {
-  background-color: transparent !important;
-  border-bottom-style: solid !important;
-  text-shadow: none;
-  /*color: white !important;*/
-}
-.container div:not(.title) a:hover {
-  color: #1A5CB1 !important;
-  border-bottom-style: solid !important;
-}
-.content .post .rel-date {
-  display: inline-block !important;
-  float: none !important;
-  background-color: rgba(231, 231, 231, 1) !important;
-  padding: 12px 16px !important;
-  box-shadow: 0 0 1px 1px rgba(231, 231, 231, 1) !important;
-  position: absolute !important;
-  right: 36px !important;
-  top: -17px !important;
-  color: rgb(77, 77, 77) !important;
-  -webkit-transform: rotate(-7deg) !important;
-  -moz-transform: rotate(-7deg) !important;
-  -ms-transform: rotate(-7deg) !important;
-  -o-transform: rotate(-7deg) !important;
-  transform: rotate(-7deg) !important;
-}
-/*兩側陰影*/
-
-.content .post .rel-date:before {
-  box-shadow: -36px 0 18px -20px rgba(231, 231, 231, 1) inset !important;
-  content: " " !important;
-  height: calc(100% + 2px) !important;
-  left: -28px !important;
-  position: absolute !important;
-  top: -1px !important;
-  width: 30px !important;
-}
-.content .post .rel-date:after {
-  box-shadow: 36px 0 18px -20px rgba(231, 231, 231, 1) inset !important;
-  content: " " !important;
-  height: calc(100% + 2px) !important;
-  position: absolute !important;
-  top: -1px !important;
-  right: -28px !important;
-  width: 30px !important;
-}
-.container .title {
-  padding-top: 16px !important;
-}
-blockquote {
-  font-style: normal !important;
-  border-left: 0.4em solid #DFB2B2;
-  padding-left: 1em;
-}
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-  width: 100%;
-  text-align: center;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-figcaption span {
-  color: #3F3D3D !important;
-  font-weight: bold !important;
-}
-pre {
-  background-color: #3F3D3D !important;
-}
-.code .c {
-  color: #989B9C !important;
-}
-.tags {
-  width: 40% !important;
-}
-.metadata {
-  width: 60% !important;
-}
-.metadata + div {
-  padding-bottom: 26px !important;
-}
-img {
-  border: 0 !important;
-}
-code {
-  letter-spacing: .1em;
-}
-.center {
-  text-align: center !important;
-}
-@media (max-width: 920px) {
-  .header .nav {
-    margin-top: 0 !important;
-  }
-  .header .nav li {
-    margin-right: 20px !important;
-  }
-  .header .nav a {
-    padding: 8px 6px 4px !important;
-    border-radius: 4px !important;
-  }
-  .header .nav a:hover {
-    padding-top: 8px !important;
-  }
-  .header .search {
-    margin-top: 0;
-    -webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-    -ms-border-radius: 0 !important;
-    -o-border-radius: 0 !important;
-    border-radius: 0 !important;
-    background-color: transparent;
-    padding: 0;
-  }
+td code {
+  display: inline-block;
+  white-space: no-wrap;
+  background: #FFF;
+  font-size: .8em;
+  line-height: 1.5em;
+  color: #555;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  border-radius: 0.4em;
+  padding: 0 .3em;
+  margin: -1px 0;
 }
