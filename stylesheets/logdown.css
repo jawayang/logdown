@@ -10,6 +10,11 @@ article table tbody td,
 article table th {
   padding: 3px 10px 3px 10px;
   border: solid 1px;
+  font-size: 0.75em;
+  line-height: 1.6em;
+}
+article table th {
+  white-space: nowrap;
 }
 article ul {
   margin-left: 38px;
