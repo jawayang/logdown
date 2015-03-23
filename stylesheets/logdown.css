@@ -57,11 +57,13 @@ article td code {
   border-radius: 0.4em;
   padding: 0 .3em;
   margin: -1px 0;
+}
+article ol {
+  margin-left: 3em;
+}
+p code{
   background: #E53F3F;
   font-size: .8em;
   line-height: 1.5em;
   color: #FFF;
-}
-article ol {
-  margin-left: 3em;
 }
